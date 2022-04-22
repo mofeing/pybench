@@ -1,0 +1,20 @@
+[project]
+name = "pybench"
+version = "0.1.0"
+description = "Benchmark suite for Python"
+authors = [
+	"Sergio Sánchez Ramírez"
+]
+license = "MIT"
+readme = "README.md"
+python = "^3"
+repository = "https://github.com/mofeing/criterion-py"
+keywords = ["benchmark", "time"]
+classifiers = [
+	"Topic :: Software Development",
+	"Topic :: System :: Benchmark"
+]
+
+[build-system]
+requires = ["setuptools >= 42", "wheel"]
+build-backend = "setuptools.build_meta"
